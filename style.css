@@ -34,6 +34,9 @@ ul {
 h3{
   font-weight: 500;
 }
+p{
+  text-align: justify;
+}
 .hidden {
   display: none;
 }
@@ -458,6 +461,9 @@ footer span {
 
 @media screen and (min-width: 768px) {
   /*Small screens, laptops=> hover effect*/
+  p{
+    font-size: 1.1rem;
+  }
   .nav-icon-mobile,
   #aside-active {
     display: none;
